@@ -21,7 +21,7 @@ Markdown
 
 ---
 
-```ts
+```
 class Developer {
   name = "Rick Lunar";
   role = "Fullstack Developer";
@@ -37,6 +37,7 @@ class Developer {
 
 export default new Developer();
 ```
+```
 {
   "username": "rick-lunar",
   "role": "fullstack developer",
@@ -45,6 +46,8 @@ export default new Developer();
   "community": "discord server",
   "status": "building the future"
 }
+```
+
 <p align="center">
 <img src="https://img.shields.io/badge/JavaScript-1E1E1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 <img src="https://img.shields.io/badge/TypeScript-1E1E1E?style=for-the-badge&logo=typescript&logoColor=3178C6" />
@@ -64,9 +67,11 @@ export default new Developer();
 <img src="https://streak-stats.demolab.com?user=rick-lunar&theme=transparent&hide_border=true&ring=569CD6&fire=CE9178&currStreakLabel=D4D4D4&sideLabels=D4D4D4&currStreakNum=9CDCFE&sideNums=9CDCFE&dates=6A9955" />
 </p>
 
+```
 loading profile...
 loading stack...
 connecting github...
 connecting discord...
 joining luna universe...
 ready 🚀
+```
