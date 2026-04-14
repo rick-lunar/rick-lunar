@@ -21,22 +21,6 @@ Markdown
 
 ---
 
-```
-class Developer {
-  name = "Rick Lunar";
-  role = "Fullstack Developer";
-  experience = "6 years";
-  focus = "Luna Universe";
-  community = "Discord Server";
-  invite = "discord.gg/Fh2t9KA7wR";
-
-  build() {
-    return "creating immersive digital experiences";
-  }
-}
-
-export default new Developer();
-```
 
 
 <p align="center">
