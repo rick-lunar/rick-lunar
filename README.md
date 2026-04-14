@@ -47,8 +47,8 @@ export default new Developer();
 <img src="https://img.shields.io/badge/Node.js-1E1E1E?style=for-the-badge&logo=node.js&logoColor=5FA04E" />
 <img src="https://img.shields.io/badge/HTML5-1E1E1E?style=for-the-badge&logo=html5&logoColor=E34F26" />
 <img src="https://img.shields.io/badge/CSS3-1E1E1E?style=for-the-badge&logo=css3&logoColor=1572B6" />
-<img src="https://img.shields.io/badge/Python-1E1E1E?style=for-the-badge&logo=python&logoColor=FFFFFF" />
-<img src="https://img.shields.io/badge/Lua-1E1E1E?style=for-the-badge&logo=lua&logoColor=FFFFFF" />
+<img src="https://img.shields.io/badge/Python-1E1E1E?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Lua-1E1E1E?style=for-the-badge&logo=lua&logoColor=white" />
 </p>
 
 <p align="center">
