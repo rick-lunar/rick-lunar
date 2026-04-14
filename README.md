@@ -30,9 +30,10 @@ Markdown
   <br>
   <img src="https://img.shields.io/badge/C%23-1E1E1E?style=for-the-badge&logo=c-sharp&logoColor=239120" />
   <img src="https://img.shields.io/badge/C++-1E1E1E?style=for-the-badge&logo=cplusplus&logoColor=00599C" />
+  <img src="https://img.shields.io/badge/Rust-1E1E1E?style=for-the-badge&logo=rust&logoColor=DEA584" />
   <img src="https://img.shields.io/badge/Python-1E1E1E?style=for-the-badge&logo=python&logoColor=3776AB" />
-  <img src="https://img.shields.io/badge/Ruby-1E1E1E?style=for-the-badge&logo=ruby&logoColor=CC342D" />
   <br>
+  <img src="https://img.shields.io/badge/Ruby-1E1E1E?style=for-the-badge&logo=ruby&logoColor=CC342D" />
   <img src="https://img.shields.io/badge/Lua-1E1E1E?style=for-the-badge&logo=lua&logoColor=2C2D72" />
   <img src="https://img.shields.io/badge/MySQL-1E1E1E?style=for-the-badge&logo=mysql&logoColor=4479A1" />
   <img src="https://img.shields.io/badge/HTML5-1E1E1E?style=for-the-badge&logo=html5&logoColor=E34F26" />
