@@ -20,7 +20,7 @@ Markdown
 </div>
 
 ---
-´´´
+```
 class Developer {
   name = "Rick Lunar";
   role = "Fullstack Developer";
@@ -35,7 +35,7 @@ class Developer {
 }
 
 export default new Developer();
-´´´
+```
 
 {
   "username": "rick-lunar",
