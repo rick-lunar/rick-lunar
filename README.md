@@ -37,16 +37,6 @@ class Developer {
 export default new Developer();
 ```
 
-{
-  "username": "rick-lunar",
-  "role": "fullstack developer",
-  "experience": "6 years",
-  "focus": "luna universe",
-  "community": "discord server",
-  "status": "building the future"
-}
-```
-
 <p align="center">
 <img src="https://img.shields.io/badge/JavaScript-1E1E1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 <img src="https://img.shields.io/badge/TypeScript-1E1E1E?style=for-the-badge&logo=typescript&logoColor=3178C6" />
