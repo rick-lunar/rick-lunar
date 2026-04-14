@@ -11,7 +11,7 @@ Markdown
   <img src="https://img.shields.io/badge/JOIN%20MY%20DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 
-<br><br>ss
+<br><br>
 
 <img src="https://komarev.com/ghpvc/?username=rick-lunar&style=for-the-badge&color=569CD6" />
 <img src="https://img.shields.io/github/followers/rick-lunar?style=for-the-badge" />
