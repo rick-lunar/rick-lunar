@@ -1,4 +1,3 @@
-Markdown
 <div align="center">
 
 <a href="https://discord.gg/Fh2t9KA7wR">
