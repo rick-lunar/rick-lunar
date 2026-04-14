@@ -8,7 +8,7 @@ Markdown
 <br><br>
 
 <a href="https://discord.gg/Fh2t9KA7wR">
-  <img src="https://img.shields.io/badge/JOIN%20MY%20DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  <img src="https://img.shields.io/badge/JOIN%20MY%20DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=6500bb" />
 </a>
 
 <br><br>
