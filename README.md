@@ -11,7 +11,7 @@ Markdown
   <img src="https://img.shields.io/badge/JOIN%20MY%20DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 
-<br><br>
+<br><br>ss
 
 <img src="https://komarev.com/ghpvc/?username=rick-lunar&style=for-the-badge&color=569CD6" />
 <img src="https://img.shields.io/github/followers/rick-lunar?style=for-the-badge" />
@@ -47,9 +47,8 @@ export default new Developer();
 <img src="https://img.shields.io/badge/Node.js-1E1E1E?style=for-the-badge&logo=node.js&logoColor=5FA04E" />
 <img src="https://img.shields.io/badge/HTML5-1E1E1E?style=for-the-badge&logo=html5&logoColor=E34F26" />
 <img src="https://img.shields.io/badge/CSS3-1E1E1E?style=for-the-badge&logo=css3&logoColor=1572B6" />
-<img src="https://img.shields.io/badge/CSS3-1E1E1E?style=for-the-badge&logo=css3&logoColor=1572B6" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=1572B6" />
+<img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=1572B6" />
 </p>
 
 <p align="center">
