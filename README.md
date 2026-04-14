@@ -20,6 +20,7 @@ Markdown
 </div>
 
 ---
+
 ```
 class Developer {
   name = "Rick Lunar";
@@ -36,6 +37,16 @@ class Developer {
 
 export default new Developer();
 ```
+```
+{
+  "username": "rick-lunar",
+  "role": "fullstack developer",
+  "experience": "6 years",
+  "focus": "luna universe",
+  "community": "discord server",
+  "status": "building the future"
+}
+```
 
 <p align="center">
 <img src="https://img.shields.io/badge/JavaScript-1E1E1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
@@ -47,8 +58,11 @@ export default new Developer();
 <img src="https://img.shields.io/badge/CSS3-1E1E1E?style=for-the-badge&logo=css3&logoColor=1572B6" />
 </p>
 
+<p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=rick-lunar&show_icons=true&theme=transparent&hide_border=true&title_color=569CD6&text_color=D4D4D4&icon_color=9CDCFE" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rick-lunar&layout=compact&theme=transparent&hide_border=true&title_color=569CD6&text_color=D4D4D4" />
+</p>
 
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=rick-lunar&theme=transparent&hide_border=true&ring=569CD6&fire=CE9178&currStreakLabel=D4D4D4&sideLabels=D4D4D4&currStreakNum=9CDCFE&sideNums=9CDCFE&dates=6A9955" />
 </p>
-
