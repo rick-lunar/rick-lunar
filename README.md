@@ -40,5 +40,5 @@ Markdown
 </p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=rick-lunar&theme=transparent&hide_border=true&ring=569CD6&fire=CE9178&currStreakLabel=D4D4D4&sideLabels=D4D4D4&currStreakNum=9CDCFE&sideNums=9CDCFE&dates=6A9955" />
+<img src="https://streak-stats.demolab.com?user=rick-lunar&theme=transparent&hide_border=true&ring=6500bb&fire=CE9178&currStreakLabel=6500bb&sideLabels=6500bb&currStreakNum=9CDCFE&sideNums=9CDCFE&dates=6A9955" />
 </p>
