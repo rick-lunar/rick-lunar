@@ -18,8 +18,10 @@
 
 
 <p align="center">
-  
+  <a href="https://discord.gg/Fh2t9KA7wR">
   <img src="https://img.shields.io/badge/JavaScript-1E1E1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  </a>
+
   
   <img src="https://img.shields.io/badge/Node.js-1E1E1E?style=for-the-badge&logo=node.js&logoColor=5FA04E" />
   
