@@ -10,9 +10,9 @@
 <br><br>
 
 <a href="https://discord.gg/Fh2t9KA7wR">
-<img src="https://komarev.com/ghpvc/?username=rick-lunar&style=for-the-badge&color=6500bb" />
-<img src="https://img.shields.io/github/followers/rick-lunar?style=for-the-badge&color=6500bb" />
-<img src="https://img.shields.io/github/stars/rick-lunar?affiliations=OWNER&style=for-the-badge&color=6500bb" />
+<img src="https://komarev.com/ghpvc/?username=rick-lunar&style=for-the-badge&color=6500bb"/>
+<img src="https://img.shields.io/github/followers/rick-lunar?style=for-the-badge&color=6500bb"/>
+<img src="https://img.shields.io/github/stars/rick-lunar?affiliations=OWNER&style=for-the-badge&color=6500bb"/>
 </a>
 
 </div>
