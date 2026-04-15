@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://discord.gg/Fh2t9KA7wR">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2400&pause=800&color=D4D4D4&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=180&lines=%2F%2F+booting+rick-lunar+profile...;export+default+%7B;++++name%3A+%22Rick+Lunar%22%2C;++++role%3A+%22Fullstack+Developer%22%2C;++++focus%3A+%22Luna+Universe%22%2C;++++status%3A+%22join+my+discord+server%22;++++%7D" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2400&pause=800&color=D4D4D4&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=180&lines=%2F%2F+booting+rick-lunar+profile...;export+default+%7B;++++name%3A+%22Rick+Lunar%22%2C;++++role%3A+%22Fullstack+Developer%22%2C;++++focus%3A+%22Luna+Universe%22%2C;++++status%3A+%22join+in+lunar+world%22;++++%7D" />
 </a>
 
 <br><br>
