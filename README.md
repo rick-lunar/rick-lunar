@@ -31,7 +31,7 @@
   
   <br>
   
-  <img src="https://img.shields.io/badge/C#23-1E1E1E?style=for-the-badge&logo=c#&logoColor=239120" />
+  <img src="https://img.shields.io/badge/C#-1E1E1E?style=for-the-badge&logo=c#&logoColor=239120" />
   
   <img src="https://img.shields.io/badge/C++-1E1E1E?style=for-the-badge&logo=cplusplus&logoColor=00599C" />
   
