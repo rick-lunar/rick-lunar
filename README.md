@@ -31,7 +31,7 @@
   
   <br>
   
-  <img src="shields.io" alt="C#" />
+  <img src="shields.io" />
   
   <img src="https://img.shields.io/badge/C++-1E1E1E?style=for-the-badge&logo=cplusplus&logoColor=00599C" />
   
