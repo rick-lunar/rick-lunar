@@ -46,7 +46,7 @@
   
   <img src="https://img.shields.io/badge/MySQL-1E1E1E?style=for-the-badge&logo=mysql&logoColor=4479A1" />
   
-  <img src="https://img.shields.io/badge/SQLite-1E1E1E?style=for-the-badge&logo=sqlite&logoColor=4479A1" />
+  <img src="https://img.shields.io/badge/SQLite-1E1E1E?style=for-the-badge&logo=sqlite&logoColor=0F80CC" />
 
   <img src="https://img.shields.io/badge/HTML5-1E1E1E?style=for-the-badge&logo=html5&logoColor=E34F26" />
   
