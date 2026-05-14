@@ -31,7 +31,7 @@
   
   <br>
   
-  <img src="https://img.shields.io/badge/C%23-1E1E1E?style=for-the-badge&logo=c-sharp&logoColor=239120" />
+  ![C#](https://img.shields.io/badge/C%23-1E1E1E?style=for-the-badge&logo=https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg&logoColor=white)
 
   <img src="https://img.shields.io/badge/C++-1E1E1E?style=for-the-badge&logo=cplusplus&logoColor=00599C" />
   
