@@ -27,7 +27,7 @@
   
   <img src="https://img.shields.io/badge/Spring-1E1E1E?style=for-the-badge&logo=spring&logoColor=6DB33F" />
 
-  <img src="https://img.shields.io/badge/React-1E1E1E?style=for-the-badge&logo=react&logoColor=6DB33F" />
+  <img src="https://img.shields.io/badge/React-1E1E1E?style=for-the-badge&logo=react&logoColor=2CCCE4" />
   
   <br>
   
