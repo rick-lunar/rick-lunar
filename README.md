@@ -31,8 +31,8 @@
   
   <br>
   
-  <img src="shields.io" />
-  
+  <img src="https://img.shields.io/badge/C%23-1E1E1E?style=for-the-badge&logo=csharp&logoColor=239120" />
+
   <img src="https://img.shields.io/badge/C++-1E1E1E?style=for-the-badge&logo=cplusplus&logoColor=00599C" />
   
   <img src="https://img.shields.io/badge/Rust-1E1E1E?style=for-the-badge&logo=rust&logoColor=DEA584" />
