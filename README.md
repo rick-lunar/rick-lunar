@@ -1,11 +1,3 @@
-<style>
-  .tech-badges a,
-  .tech-badges a:hover,
-  .tech-badges a:focus,
-  .tech-badges a:active {
-    text-decoration: none !important;
-  }
-</style>
 <div align="center">
 
 <a href="https://discord.gg/Fh2t9KA7wR">
