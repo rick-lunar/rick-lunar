@@ -5,6 +5,9 @@
   .tech-badges a:active {
     text-decoration: none !important;
   }
+    .tech-badges a:hover {
+    text-decoration: none;
+  }
 </style>
 
 <div align="center">
