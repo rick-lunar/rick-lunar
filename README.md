@@ -1,21 +1,18 @@
 <div align="center">
 
-<a href="https://discord.gg/Fh2t9KA7wR">
+<a href="https://discord.gg/Fh2t9KA7wR" style="text-decoration: none;">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2400&pause=800&color=D4D4D4&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=190&lines=%2F%2F+booting+rick-lunar+profile...;export+default+%7B;++++name%3A+%22Rick+Lunar%22%2C;++++role%3A+%22Fullstack+Developer%22%2C;++++focus%3A+%22Luna+Universe%22%2C;++++status%3A+%22join+on+lunar+world%22;++++%7D" />
 </a>
 
 <br><br>
 
-
-<br><br>
 <img src="https://komarev.com/ghpvc/?username=rick-lunar&style=for-the-badge&color=6500bb" />
 <img src="https://img.shields.io/github/followers/rick-lunar?style=for-the-badge&color=6500bb" />
 <img src="https://img.shields.io/github/stars/rick-lunar?affiliations=OWNER&style=for-the-badge&color=6500bb" />
 
 </div>
 
-
-
+<br>
 
 <p align="center">
 
@@ -109,6 +106,8 @@
 
 </p>
 
+<br>
+
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=rick-lunar&theme=transparent&hide_border=true&ring=6500bb&fire=white&currStreakLabel=6500bb&sideLabels=6500bb&currStreakNum=white&sideNums=white&dates=white" />
+  <img src="https://streak-stats.demolab.com?user=rick-lunar&theme=transparent&hide_border=true&ring=6500bb&fire=white&currStreakLabel=6500bb&sideLabels=6500bb&currStreakNum=white&sideNums=white&dates=white" />
 </p>
