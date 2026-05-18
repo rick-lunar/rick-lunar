@@ -6,7 +6,7 @@
     text-decoration: none !important;
   }
     .tech-badges a:hover {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 </style>
 
