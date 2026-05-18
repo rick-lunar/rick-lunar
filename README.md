@@ -1,6 +1,9 @@
 <style>
-  .tech-badges a {
-    text-decoration: none;
+  .tech-badges a,
+  .tech-badges a:hover,
+  .tech-badges a:focus,
+  .tech-badges a:active {
+    text-decoration: none !important;
   }
 </style>
 
