@@ -77,5 +77,5 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=rick-lunar&theme=transparent&hide_border=true&ring=6500bb&fire=white&currStreakLabel=6500bb&sideLabels=6500bb&currStreakNum=white&sideNums=white&dates=white" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=rick-lunar&theme=transparent&hide_border=true&ring=6500bb&fire=white&currStreakLabel=6500bb&sideLabels=6500bb&currStreakNum=white&sideNums=white&dates=white" />
 </p>
