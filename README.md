@@ -77,5 +77,6 @@
 </p>
 
 <p align="center">
+  <a href="https://discord.gg/Fh2t9KA7wR">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=rick-lunar&theme=transparent&hide_border=true&ring=6500bb&fire=white&currStreakLabel=6500bb&sideLabels=6500bb&currStreakNum=white&sideNums=white&dates=white" />
 </p>
