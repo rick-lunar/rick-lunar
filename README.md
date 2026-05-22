@@ -14,11 +14,11 @@
 
 <p align="center" class="tech-badges">
 
-  <a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank">
+  <a href="https://pt.wikipedia.org/wiki/JavaScript">
     <img src="https://img.shields.io/badge/JavaScript-1E1E1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
   </a>
 
-  <a href="https://pt.wikipedia.org/wiki/Node.js" target="_blank">
+  <a href="https://pt.wikipedia.org/wiki/Node.js">
     <img src="https://img.shields.io/badge/Node.js-1E1E1E?style=for-the-badge&logo=node.js&logoColor=5FA04E" />
   </a>
 
