@@ -1,84 +1,82 @@
-content = """<div align="center">
-  <h1>Hi there, I'm Rick Lunar! 👋</h1>
-  <p><b>Fullstack Developer | Architect of the Luna Universe 🌙</b></p>
-  
-  <p>
-    <a href="https://discord.gg/Fh2t9KA7wR">
-      <img src="https://img.shields.io/badge/Join_My_Discord-7c3aed?style=flat-square&logo=discord&logoColor=white" alt="Discord" />
-    </a>
-    <a href="https://github.com/rick-lunar">
-      <img src="https://komarev.com/ghpvc/?username=rick-lunar&style=flat-square&color=7c3aed&label=PROFILE+VIEWS" alt="Profile Views" />
-    </a>
-  </p>
+<div align="center">
 
-  <br>
+<a href="https://discord.gg/Fh2t9KA7wR">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2400&pause=800&color=D4D4D4&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=190&lines=%2F%2F+booting+rick-lunar+profile...;export+default+%7B;++++name%3A+%22Rick+Lunar%22%2C;++++role%3A+%22Fullstack+Developer%22%2C;++++focus%3A+%22Luna+Universe%22%2C;++++status%3A+%22join+on+lunar+world%22;++++%7D" />
+</a>
 
-  <table>
-    <tr>
-      <td valign="top" width="55%">
-        <h2>🔭 About Me</h2>
-        <ul>
-          <li>🛠️ Currently building the <b>Luna Universe</b> and <b>Lunaaa Bot</b>.</li>
-          <li>🌌 Transforming lunatic ideas into functional and magical code.</li>
-          <li>💬 Ask me about <b>Fullstack Dev, Discord Bots & System Architecture</b>.</li>
-          <li>📫 Reach me on my <a href="https://discord.gg/Fh2t9KA7wR">Discord Server</a>.</li>
-        </ul>
-      </td>
-      <td valign="top" width="45%">
-        <h2>🛠️ Tech Stack</h2>
-        <div align="center">
-          <code>JavaScript</code> • <code>Node.js</code> • <code>React</code><br>
-          <code>Spring</code> • <code>Java</code> • <code>Python</code><br>
-          <code>C++</code> • <code>Rust</code> • <code>Ruby</code><br>
-          <code>Lua</code> • <code>MySQL</code> • <code>SQLite</code>
-        </div>
-      </td>
-    </tr>
-  </table>
+<br><br>
 
-  <br>
-
-  <h2>📊 GitHub Analytics</h2>
-  
-  <a href="https://github.com/rick-lunar">
-    <picture>
-      <!-- Dark Mode Stats -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rick-lunar&show_icons=true&theme=transparent&hide_border=true&title_color=7c3aed&text_color=c9d1d9&icon_color=7c3aed">
-      <!-- Light Mode Stats -->
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=rick-lunar&show_icons=true&theme=transparent&hide_border=true&title_color=6500bb&text_color=333333&icon_color=6500bb">
-      <!-- Fallback -->
-      <img src="https://github-readme-stats.vercel.app/api?username=rick-lunar&show_icons=true&theme=transparent&hide_border=true&title_color=7c3aed" alt="Rick Lunar's GitHub Stats" />
-    </picture>
-  </a>
-  
-  <a href="https://github.com/rick-lunar">
-    <picture>
-      <!-- Dark Mode Langs -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rick-lunar&layout=compact&theme=transparent&hide_border=true&title_color=7c3aed&text_color=c9d1d9">
-      <!-- Light Mode Langs -->
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rick-lunar&layout=compact&theme=transparent&hide_border=true&title_color=6500bb&text_color=333333">
-      <!-- Fallback -->
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rick-lunar&layout=compact&theme=transparent&hide_border=true&title_color=7c3aed" alt="Rick Lunar's Top Languages" />
-    </picture>
-  </a>
-
-  <br><br>
-
-  <a href="https://discord.gg/Fh2t9KA7wR">
-    <picture>
-      <!-- Dark Mode Streak -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=rick-lunar&theme=transparent&hide_border=true&ring=7c3aed&fire=7c3aed&currStreakLabel=c9d1d9&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=c9d1d9">
-      <!-- Light Mode Streak -->
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com?user=rick-lunar&theme=transparent&hide_border=true&ring=6500bb&fire=6500bb&currStreakLabel=333&sideLabels=333&currStreakNum=333&sideNums=333&dates=333">
-      <!-- Fallback -->
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=rick-lunar&theme=transparent&hide_border=true" alt="GitHub Streak" />
-    </picture>
-  </a>
+<img src="https://komarev.com/ghpvc/?username=rick-lunar&style=for-the-badge&color=6500bb" />
+<img src="https://img.shields.io/github/followers/rick-lunar?style=for-the-badge&color=6500bb" />
+<img src="https://img.shields.io/github/stars/rick-lunar?affiliations=OWNER&style=for-the-badge&color=6500bb" />
 
 </div>
-"""
 
-with open("README-v4.md", "w", encoding="utf-8") as f:
-    f.write(content)
+<p align="center" class="tech-badges">
 
-print("[file-tag: code-generated-file-readme-v4-md]")
+  <a href="https://pt.wikipedia.org/wiki/JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-1E1E1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/Node.js">
+    <img src="https://img.shields.io/badge/Node.js-1E1E1E?style=for-the-badge&logo=node.js&logoColor=5FA04E" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)">
+    <img src="https://img.shields.io/badge/Java-1E1E1E?style=for-the-badge&logo=openjdk&logoColor=ED8B00" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/Spring_Framework">
+    <img src="https://img.shields.io/badge/Spring-1E1E1E?style=for-the-badge&logo=spring&logoColor=6DB33F" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/React_(JavaScript)">
+    <img src="https://img.shields.io/badge/React-1E1E1E?style=for-the-badge&logo=react&logoColor=2CCCE4" />
+  </a>
+
+  <br>
+
+  <a href="https://pt.wikipedia.org/wiki/C%2B%2B">
+    <img src="https://img.shields.io/badge/C++-1E1E1E?style=for-the-badge&logo=cplusplus&logoColor=00599C" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/Rust_(linguagem_de_programa%C3%A7%C3%A3o)">
+    <img src="https://img.shields.io/badge/Rust-1E1E1E?style=for-the-badge&logo=rust&logoColor=DEA584" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/Python">
+    <img src="https://img.shields.io/badge/Python-1E1E1E?style=for-the-badge&logo=python&logoColor=3776AB" />
+  </a>
+
+  <br>
+
+  <a href="https://pt.wikipedia.org/wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)">
+    <img src="https://img.shields.io/badge/Ruby-1E1E1E?style=for-the-badge&logo=ruby&logoColor=CC342D" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/Lua_(linguagem_de_programa%C3%A7%C3%A3o)">
+    <img src="https://img.shields.io/badge/Lua-1E1E1E?style=for-the-badge&logo=lua&logoColor=2C2D72" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/MySQL">
+    <img src="https://img.shields.io/badge/MySQL-1E1E1E?style=for-the-badge&logo=mysql&logoColor=4479A1" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/SQLite">
+    <img src="https://img.shields.io/badge/SQLite-1E1E1E?style=for-the-badge&logo=sqlite&logoColor=0F80CC" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/HTML5">
+    <img src="https://img.shields.io/badge/HTML5-1E1E1E?style=for-the-badge&logo=html5&logoColor=E34F26" />
+  </a>
+
+  <a href="https://pt.wikipedia.org/wiki/CSS">
+    <img src="https://img.shields.io/badge/CSS-1E1E1E?style=for-the-badge&logo=css&logoColor=1572B6" />
+  </a>
+
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/Fh2t9KA7wR">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=rick-lunar&theme=transparent&hide_border=true&ring=6500bb&fire=white&currStreakLabel=6500bb&sideLabels=6500bb&currStreakNum=white&sideNums=white&dates=white" />
+</p>
