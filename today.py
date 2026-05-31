@@ -6,7 +6,6 @@ from lxml import etree
 import time
 import hashlib
 
-# Configurações do seu ambiente GitHub Actions
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] 
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
@@ -307,7 +306,7 @@ def perf_counter(funct, *args):
 
 if __name__ == '__main__':
     user_id, acc_date = user_getter(USER_NAME)
-    OWNER_ID = user_id # Ajustado para o seu ID real
+    OWNER_ID = user_id
     
     age_data, _ = perf_counter(daily_readme, datetime.datetime(2006, 8, 13))
     total_loc, _ = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
