@@ -79,7 +79,7 @@ text, tspan {white-space: pre;}
 <tspan x="380" y="140" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">VS 2026 (v18.6), VSCode 1.122</tspan>
 <tspan x="380" y="160" class="cc">. </tspan>
 <tspan x="380" y="180" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc">  </tspan><tspan class="value">Java, Js, Node, C++, C#, Spring, Rust, Python, Lua</tspan>
-<tspan x="380" y="200" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">HTML5, CSS, React, JSON, Mysql, SQL, YAML, Ruby</tspan>
+<tspan x="380" y="200" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">HTML5, CSS, React, JSON, Mysql, SQL, Ruby</tspan>
 <tspan x="380" y="220" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Portuguese, English, Spanish</tspan>
 <tspan x="380" y="240" class="cc">. </tspan>
 <tspan x="380" y="260" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Game Dev, Web Dev, MTA/FiveM, MC Modding</tspan>
