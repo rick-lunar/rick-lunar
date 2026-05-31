@@ -2,14 +2,14 @@ name: Atualizar README e Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Roda automaticamente todo dia à meia-noite
-  workflow_dispatch:     # Permite rodar manualmente a qualquer momento
+    - cron: '0 0 * * *' 
+  workflow_dispatch:     
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Essencial para permitir o git push
+      contents: write 
     
     steps:
       - name: Checkout do código
