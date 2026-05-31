@@ -1,0 +1,9 @@
+- name: Checkout do código
+        uses: actions/checkout@v3
+
+      # Adicione esta etapa para listar os arquivos e depurar onde o Actions está
+      - name: Listar arquivos para debug
+        run: ls -R
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
