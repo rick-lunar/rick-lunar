@@ -1,81 +1,65 @@
 content = """<div align="center">
-  <h1 style="color: #7c3aed;">🌙 Lunaaa Bot</h1>
-  <p><b>O Universo Lunático para o seu servidor do Discord! 💜</b></p>
+  <a href="https://discord.gg/Fh2t9KA7wR">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2400&pause=800&color=7c3aed&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=190&lines=%2F%2F+booting+rick-lunar+profile...;export+default+%7B;++++name%3A+%22Rick+Lunar%22%2C;++++role%3A+%22Fullstack+Developer%22%2C;++++focus%3A+%22Luna+Universe%22%2C;++++status%3A+%22join+on+lunar+world%22;++++%7D" />
+  </a>
 
-  [![Dashboard](https://img.shields.io/badge/Dashboard-Online-7c3aed?style=for-the-badge&logo=discord&logoColor=white)](#)
-  [![Criador](https://img.shields.io/badge/Criador-Rick_Lunar-7c3aed?style=for-the-badge)](#)
-  [![Status](https://img.shields.io/badge/Status-Ativo-7c3aed?style=for-the-badge)](#)
+  <br><br>
+
+  <img src="https://komarev.com/ghpvc/?username=rick-lunar&style=for-the-badge&color=7c3aed" />
+  <img src="https://img.shields.io/github/followers/rick-lunar?style=for-the-badge&color=7c3aed" />
+  <img src="https://img.shields.io/github/stars/rick-lunar?affiliations=OWNER&style=for-the-badge&color=7c3aed" />
 </div>
 
 <br>
 
-## ✨ Sobre a Lunaaa
+## ✨ Sobre Mim
 
-**Lunaaa** não é apenas uma bot de Discord, é uma experiência completa para a sua comunidade! Com um painel web intuitivo, moderno e **Lunático**, você pode gerenciar todas as configurações do seu servidor com facilidade e muito estilo.
+**Rick Lunar**, o arquiteto por trás do **Luna Universe**! Sou um Desenvolvedor Fullstack apaixonado por criar experiências únicas, focado em expandir o ecossistema da nossa querida [Lunaaa Bot](#).
 
-> *"Acesse as seções do painel na barra lateral para configurar as minhas funcionalidades!"*
-
----
-
-## 🚀 Funcionalidades Principais
-
-### 🛡️ Moderação & Segurança
-* **Bloqueador de Convites:** Mantenha seu servidor seguro contra spam e divulgações indesejadas.
-* **Registro de Auditoria:** Acompanhe tudo o que a sua equipe (Staff) está alterando no painel da Lunaaa.
-* **Sistema de Punições:** Gerencie avisos (warns), silenciamentos (mutes), expulsões e banimentos com facilidade.
-
-### 🌟 Experiência & Economia
-* **Sistema de Level Up:** Recompensas automáticas por XP, bônus de experiência e mensagens personalizadas ao subir de nível.
-* **Economia & Diversão:** Lunarboard (Leaderboard), Loja de Tralhas da Lunaaa, multiplicadores de *daily* e Eventos de Reações.
-
-### 📡 Alertas Sociais
-Nunca perca uma atualização dos seus criadores de conteúdo favoritos! Notificações automáticas e personalizáveis para:
-* 🔴 **YouTube**
-* 🟣 **Twitch**
-* 🎵 **TikTok**
-* 📷 **Instagram**
-* 🦋 **Bluesky**
-
-### 🛠️ Personalização Completa
-* **Comandos Personalizados:** Crie comandos exclusivos para mensagens importantes, regras ou piadas internas do seu servidor.
-* **Configurações por Prefixo:** Altere o prefixo padrão (`-`) para o que preferir e decida se a bot deve deletar a mensagem de chamada do usuário.
-* **Canais Proibidos:** Configure canais específicos onde os comandos da bot são bloqueados.
+> *"Transformando ideias lunáticas em código funcional e mágico."*
 
 ---
 
-## 💎 Luna Plus (Premium para Servidores)
+## 🚀 Tecnologias e Arsenal
 
-Quer levar seu servidor para outro nível? O **Luna Plus** oferece recursos exclusivos para comunidades engajadas:
-* Limite estendido de até **100 canais** de notificação (YouTube/Twitch/Bluesky).
-* Acompanhamentos Premium de contas da Twitch.
-* Sextas e Sábados **sem taxas** nos sistemas de economia.
-* Multiplicadores de Dailies de Sonhos (até 2.0x).
-* Limite aumentado para até **100 cargos** de Level Up.
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/JavaScript-1E1E1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Node.js-1E1E1E?style=for-the-badge&logo=node.js&logoColor=5FA04E" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/React-1E1E1E?style=for-the-badge&logo=react&logoColor=2CCCE4" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Spring-1E1E1E?style=for-the-badge&logo=spring&logoColor=6DB33F" /></a>
+  <br><br>
+  <a href="#"><img src="https://img.shields.io/badge/Java-1E1E1E?style=for-the-badge&logo=openjdk&logoColor=ED8B00" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Python-1E1E1E?style=for-the-badge&logo=python&logoColor=3776AB" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/C++-1E1E1E?style=for-the-badge&logo=cplusplus&logoColor=00599C" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Rust-1E1E1E?style=for-the-badge&logo=rust&logoColor=DEA584" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Ruby-1E1E1E?style=for-the-badge&logo=ruby&logoColor=CC342D" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Lua-1E1E1E?style=for-the-badge&logo=lua&logoColor=2C2D72" /></a>
+  <br><br>
+  <a href="#"><img src="https://img.shields.io/badge/MySQL-1E1E1E?style=for-the-badge&logo=mysql&logoColor=4479A1" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/SQLite-1E1E1E?style=for-the-badge&logo=sqlite&logoColor=0F80CC" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/HTML5-1E1E1E?style=for-the-badge&logo=html5&logoColor=E34F26" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/CSS-1E1E1E?style=for-the-badge&logo=css&logoColor=1572B6" /></a>
+</p>
 
 ---
 
-## 🎨 Galeria de Fanarts & Library
+## 📈 Minha Jornada
 
-O Universo Lunar valoriza profundamente a arte e a sua comunidade! O ecossistema web da Lunaaa conta com uma **Galeria de Fanarts** dedicada, onde os artistas podem expor suas obras e os usuários podem interagir e apreciar as artes criadas para a personagem.
-
----
-
-## 🤝 Lunaaa Partners
-
-Queremos apoiar as comunidades que usam a Lunaaa e adaptar ela para atender as necessidades da sua equipe! O programa **Lunaaa Partners** oferece:
-* Acesso exclusivo ao servidor privado.
-* Canal direto para sugestões e **Feedbacks**.
-* **Recompensas exclusivas** para ajudar a engajar o seu servidor.
+<div align="center">
+  <a href="https://discord.gg/Fh2t9KA7wR">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=rick-lunar&theme=transparent&hide_border=true&ring=7c3aed&fire=white&currStreakLabel=7c3aed&sideLabels=7c3aed&currStreakNum=white&sideNums=white&dates=white" />
+  </a>
+</div>
 
 ---
 
 <div align="center">
-  <p>Construído no <a href="#">Lunar Universe</a> • <b>© 2024-2026</b></p>
+  <p>Construindo o <a href="https://discord.gg/Fh2t9KA7wR">Lunar Universe</a> • <b>© 2024-2026</b></p>
   <p>Feito com 💜 por <b>Rick Lunar</b></p>
 </div>
 """
 
-with open("README.md", "w", encoding="utf-8") as f:
+with open("README-v2.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("[file-tag: code-generated-file-readme-md]")
+print("[file-tag: code-generated-file-readme-v2-md]")
