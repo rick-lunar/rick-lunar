@@ -239,8 +239,10 @@ def justify_format(root, element_id, new_text, length=0):
     
     custom_dots = {
         'repo_data': {1: '.....', 2: '...', 3: '..'},
-        'commit_data': {1: '.' * 19, 2: '.' * 18, 3: '.' * 17},
-        'streak_data': {1: '.' * 20, 2: '.' * 19, 3: '.' * 18}
+        'star_data_dots': {1: '.............', 2: '............', 3: '...........'},
+        'commit_data': {1: '...................',  2: '..................', 3: '.................'},
+        'follower_data_dots': {1: '.........', 2: '........', 3: '.......'},
+        'streak_data': {1: '....................', 2: '...................', 3: '..................'}
     }
     
     if element_id in custom_dots and text_len in custom_dots[element_id]:
