@@ -2,7 +2,9 @@ name: Atualizar README e Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
+    # Atualizar a cada 3 Horas para não ficar desatualizado. 
+    # horário de Brasília | UTC-3: 21h, 0h, 3h, 6h, 9h, 12h, 15h, 18h
+    - cron: '0 */3 * * *' 
   workflow_dispatch:     
 
 jobs:
@@ -36,5 +38,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "🚀 Atualização automática: estatísticas do perfil" || exit 0
+          git commit -m "💜 Atualização automática: profile stats" || exit 0
           git push
