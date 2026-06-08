@@ -237,18 +237,16 @@ def justify_format(root, element_id, new_text, length=0):
     
     text_len = len(new_text)
     
-    # Mapeamento para controle absoluto do espaçamento customizado na sua UI
     custom_dots = {
         'repo_data': {1: '.....', 2: '...', 3: '..'},
         'commit_data': {1: '.' * 19, 2: '.' * 18, 3: '.' * 17},
         'streak_data': {1: '.' * 20, 2: '.' * 19, 3: '.' * 18}
     }
     
-    # Checa se o elemento está no nosso dicionário customizado E se a gente previu o tamanho dele
     if element_id in custom_dots and text_len in custom_dots[element_id]:
         dot_string = custom_dots[element_id][text_len]
     else:
-        # Lógica padrão (fallback) que vai atuar como o sistema natural
+        
         just_len = max(0, length - text_len)
         dot_string = '.' * just_len
 
@@ -311,7 +309,7 @@ def follower_getter(username):
     request = simple_request(follower_getter.__name__, query, {'login': username})
     return int(request.json()['data']['user']['followers']['totalCount'])
 
-# Lógica de Streak Adicionada
+
 @functools.lru_cache(maxsize=None)
 def get_contribution_days(username):
     query_count('get_contribution_days')
@@ -333,7 +331,7 @@ def get_contribution_days(username):
     request = simple_request(get_contribution_days.__name__, query, {'login': username})
     weeks = request.json()['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
     
-    # Extrai todos os dias em uma lista plana para facilitar a iteração
+    
     days = []
     for week in weeks:
         for day in week['contributionDays']:
@@ -344,12 +342,11 @@ def streak_counter(username):
     days = get_contribution_days(username)
     current_streak = 0
     
-    # Itera de trás para frente
     for day in reversed(days):
         if day['contributionCount'] > 0:
             current_streak += 1
         else:
-            # Se a data de hoje tem 0 contribuições, verificamos ontem antes de quebrar o streak
+            
             if current_streak == 0 and day == days[-1]:
                 continue
             break
