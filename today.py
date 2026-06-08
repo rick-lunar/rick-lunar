@@ -5,10 +5,11 @@ import os
 from lxml import etree
 import time
 import hashlib
+import functools
 
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] 
-QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'get_contribution_days': 0}
 
 def daily_readme(birthday):
     diff = relativedelta.relativedelta(datetime.datetime.today(), birthday)
@@ -228,7 +229,37 @@ def stars_counter(data):
     for node in data: total_stars += node['node']['stargazers']['totalCount']
     return total_stars
 
-def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def justify_format(root, element_id, new_text, length=0):
+    if isinstance(new_text, int):
+        new_text = f"{'{:,}'.format(new_text)}"
+    new_text = str(new_text)
+    find_and_replace(root, element_id, new_text)
+    
+    text_len = len(new_text)
+    
+    # Mapeamento para controle absoluto do espaçamento customizado na sua UI
+    custom_dots = {
+        'repo_data': {1: '.....', 2: '...', 3: '..'},
+        'commit_data': {1: '.' * 19, 2: '.' * 18, 3: '.' * 17},
+        'streak_data': {1: '.' * 20, 2: '.' * 19, 3: '.' * 18}
+    }
+    
+    # Checa se o elemento está no nosso dicionário customizado E se a gente previu o tamanho dele
+    if element_id in custom_dots and text_len in custom_dots[element_id]:
+        dot_string = custom_dots[element_id][text_len]
+    else:
+        # Lógica padrão (fallback) que vai atuar como o sistema natural
+        just_len = max(0, length - text_len)
+        dot_string = '.' * just_len
+
+    find_and_replace(root, f"{element_id}_dots", dot_string)
+
+def find_and_replace(root, element_id, new_text):
+    element = root.find(f".//*[@id='{element_id}']")
+    if element is not None:
+        element.text = new_text
+
+def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, streak_data, longest_streak_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
     justify_format(root, 'uptime_data', age_data, 20) 
@@ -237,28 +268,12 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     justify_format(root, 'repo_data', repo_data, 6)
     justify_format(root, 'contrib_data', contrib_data)
     justify_format(root, 'follower_data', follower_data, 10)
+    justify_format(root, 'streak_data', streak_data, 10)
+    justify_format(root, 'longest_streak_data', longest_streak_data, 10)
     justify_format(root, 'loc_data', loc_data[2], 9)
     justify_format(root, 'loc_add', loc_data[0])
     justify_format(root, 'loc_del', loc_data[1], 7)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
-
-def justify_format(root, element_id, new_text, length=0):
-    if isinstance(new_text, int):
-        new_text = f"{'{:,}'.format(new_text)}"
-    new_text = str(new_text)
-    find_and_replace(root, element_id, new_text)
-    just_len = max(0, length - len(new_text))
-    if just_len <= 2:
-        dot_map = {0: '', 1: ' ', 2: '. '}
-        dot_string = dot_map[just_len]
-    else:
-        dot_string = ' ' + ('.' * just_len) + ' '
-    find_and_replace(root, f"{element_id}_dots", dot_string)
-
-def find_and_replace(root, element_id, new_text):
-    element = root.find(f".//*[@id='{element_id}']")
-    if element is not None:
-        element.text = new_text
 
 def commit_counter(comment_size):
     total_commits = 0
@@ -296,6 +311,66 @@ def follower_getter(username):
     request = simple_request(follower_getter.__name__, query, {'login': username})
     return int(request.json()['data']['user']['followers']['totalCount'])
 
+# Lógica de Streak Adicionada
+@functools.lru_cache(maxsize=None)
+def get_contribution_days(username):
+    query_count('get_contribution_days')
+    query = '''
+    query($login: String!) {
+        user(login: $login) {
+            contributionsCollection {
+                contributionCalendar {
+                    weeks {
+                        contributionDays {
+                            contributionCount
+                            date
+                        }
+                    }
+                }
+            }
+        }
+    }'''
+    request = simple_request(get_contribution_days.__name__, query, {'login': username})
+    weeks = request.json()['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
+    
+    # Extrai todos os dias em uma lista plana para facilitar a iteração
+    days = []
+    for week in weeks:
+        for day in week['contributionDays']:
+            days.append(day)
+    return days
+
+def streak_counter(username):
+    days = get_contribution_days(username)
+    current_streak = 0
+    
+    # Itera de trás para frente
+    for day in reversed(days):
+        if day['contributionCount'] > 0:
+            current_streak += 1
+        else:
+            # Se a data de hoje tem 0 contribuições, verificamos ontem antes de quebrar o streak
+            if current_streak == 0 and day == days[-1]:
+                continue
+            break
+            
+    return current_streak
+
+def longest_streak_counter(username):
+    days = get_contribution_days(username)
+    longest_streak = 0
+    current_streak = 0
+    
+    for day in days:
+        if day['contributionCount'] > 0:
+            current_streak += 1
+            if current_streak > longest_streak:
+                longest_streak = current_streak
+        else:
+            current_streak = 0
+            
+    return longest_streak
+
 def query_count(funct_id):
     global QUERY_COUNT
     QUERY_COUNT[funct_id] += 1
@@ -316,8 +391,10 @@ if __name__ == '__main__':
     repo_data, _ = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, _ = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, _ = perf_counter(follower_getter, USER_NAME)
-
+    streak_data, _ = perf_counter(streak_counter, USER_NAME)
+    longest_streak_data, _ = perf_counter(longest_streak_counter, USER_NAME)
+    
     for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index])
 
-    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
-    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, streak_data, longest_streak_data, total_loc[:-1])
+    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, streak_data, longest_streak_data, total_loc[:-1])
