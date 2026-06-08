@@ -236,23 +236,6 @@ def justify_format(root, element_id, new_text, length=0):
     find_and_replace(root, element_id, new_text)
     
     text_len = len(new_text)
-    
-    custom_dots = {
-        'repo_data': {1: '.....', 2: '...', 3: '..'},
-        'star_data_dots': {1: '.............', 2: '............', 3: '...........'},
-        'commit_data': {1: '...................',  2: '..................', 3: '.................'},
-        'follower_data_dots': {1: '.........', 2: '........', 3: '.......'},
-        'streak_data': {1: '....................', 2: '...................', 3: '..................'}
-    }
-    
-    if element_id in custom_dots and text_len in custom_dots[element_id]:
-        dot_string = custom_dots[element_id][text_len]
-    else:
-        
-        just_len = max(0, length - text_len)
-        dot_string = '.' * just_len
-
-    find_and_replace(root, f"{element_id}_dots", dot_string)
 
 def find_and_replace(root, element_id, new_text):
     element = root.find(f".//*[@id='{element_id}']")
