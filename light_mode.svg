@@ -83,7 +83,7 @@ text, tspan {white-space: pre;}
 <text x="380" y="40" fill="#24292f" font-size="14px">
 <tspan x="380" y="40">@ricklunar</tspan> <tspan class="cc">-——————————————————————————————————————————————————————————-—-</tspan>
 <tspan x="380" y="60" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Windows 11, Android 16, Linux</tspan>
-<tspan x="380" y="80" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value" id="uptime_data">19 years, 10 months, 4 days</tspan>
+<tspan x="380" y="80" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value" id="uptime_data">19 years, 10 months, 5 days</tspan>
 <tspan x="380" y="100" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Lunar Universe Team.</tspan>
 <tspan x="380" y="120" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Creator</tspan>
 <tspan x="380" y="140" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">VS 2026 (v18.6), VSCode 1.122</tspan>
